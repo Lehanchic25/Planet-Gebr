@@ -1,113 +1,122 @@
 {
-        "localizedName": "Дробр 2.0",
-	"description": "Наземный юнит, который стреляет очень сильными лазерами",
-        "speed": 2.6,
-        "accel": 0.1,
-        "drag": 0.08,
-		"outlineColor": "28292EFF",
-        "flying": false,
-        "health": 5200,
-        "armor": 14,
-	"range": 120,
-		"TargetAir": true,
-        "commandLimit": 10,
-        "circleTarget": true,
-	"destructableWreck": false,
-	    "weapons": [
-   {
-    "name": "lasers2.0",
-    "shootCone": 15,
-    "mirror": true,
-	"alternate": true,
-		"shake": 1,
-    "top": false,
-	"rotate": false,
-    "y": 0,
-	"x": 5,
-    "reload": 26,
-    "shootSound": "laser",
-	"ejectEffect": "none",
-	"smokeEffect": "none",
-    "recoil": 2.6,
-     "bullet": {
-    "type": "laserBulletType",
-      "damage": 260,
-      "sideAngle": 35,
-      "sideWidth": 2.7,
-      "sideLength": 25,
-      "width": 21,
-      "colors":["DD4444FF", "FF6666FF", "FFFFFFFF"],
-      "length": 98
-	"shootEffect":  {
-	     "type": "MultiEffect"
-	     "effects": [
-	     {
-	    		"type": "ParticleEffect"	
-                        "sizeFrom": 2,
-		"line": true,
-		"sizeTo": 1,
-        		"lifetime": 8,
-		"colorFrom": "FF6666FF",
-		"colorTo": "FF6666FF",
-			},
-		{
-	    		"type": "ParticleEffect"	
-                        "sizeFrom": 2,
-		"sizeTo": 1,
-		"length": 6,
-		"interp": "circleOut",
-		"sizeInterp": "swingIn",
-        		"lifetime": 13,
-		"colorFrom": "FF6666FF",
-		"colorTo": "FF666600"
-			}
-		    ]
-		    },
-	"hitEffect": {
-	    		"type": "ParticleEffect"	
-                        "sizeFrom": 2,
-		"line": true,
-		"sizeTo": 1,
-        		"lifetime": 8,
-		"colorFrom": "FF6666FF",
-		"colorTo": "FF6666FF",
-			},
-    "despawnEffect": {
-	    		"type": "ParticleEffect"	
-                        "sizeFrom": 2,
-	    "line": true,
-		"sizeTo": 1,
-        		"lifetime": 8,
-		"colorFrom": "FF6666FF",
-		"colorTo": "FF6666FF",
-			}
-			
-		}
-		},
-
- {
-			    "name": "boltik"
-			    "x": 0,
-			    "y": -1.3,
-          "rotate": true,
-          "rotateSpeed": 5.9,
-			    "reload": 8,
-			    "mirror": false,
-			    "shootSound": "spark",
-			    "inaccuracy": 4,
-			    "shot": {
-			    "shots": 2,
-			    "shotDelay": 1
-		    }
-			    "shootCone": 30,
-			    "bullet": {
-			    "type": "lightningBulletType",
-			    "damage": 35,
-		    "lightningColor": "FFF582FF",
-			    "lightningLength": 15,
-			    "lightningLengthRand": 5,
-		    "hitEffect": "shootHealYellow"
-		    }
-}
-	]
+  "localizedName": "Дробр 2.0",
+  "description": "Наземный юнит, который стреляет очень сильными лазерами",
+  "speed": 2.6,
+  "accel": 0.1,
+  "drag": 0.08,
+  "outlineColor": "28292eff",
+  "flying": false,
+  "health": 5200,
+  "armor": 14,
+  "range": 120,
+  "TargetAir": "true",
+  "commandLimit": "10",
+  "circleTarget": true,
+  "destructableWreck": "false",
+  "weapons": [
+    {
+      "name": "lasers2.0",
+      "shootCone": 15,
+      "mirror": true,
+      "alternate": true,
+      "shake": 1,
+      "top": false,
+      "rotate": false,
+      "y": 0,
+      "x": 5,
+      "reload": 26,
+      "shootSound": "laser",
+      "ejectEffect": "none",
+      "smokeEffect": "none",
+      "recoil": 2.6,
+      "bullet":{
+        "damage": 260,
+        "sideAngle": 35,
+        "sideWidth": 2.7,
+        "sideLength": 25,
+        "width": 21,
+        "colors": [
+          "dd4444ff",
+          "ff6666ff",
+          "ffffffff"
+        ],
+        "length": 98,
+        "shootEffect":{
+          "effects": [
+            {
+              "sizeFrom": 2,
+              "line": true,
+              "sizeTo": 1,
+              "lifetime": 8,
+              "colorFrom": "ff6666ff",
+              "colorTo": "ff6666ff",
+              "type": "ParticleEffect"
+            },
+            {
+              "sizeFrom": 2,
+              "sizeTo": 1,
+              "length": 6,
+              "interp": "circleOut",
+              "sizeInterp": "swingIn",
+              "lifetime": 13,
+              "colorFrom": "ff6666ff",
+              "colorTo": "ff666600",
+              "type": "ParticleEffect"
+            }
+          ],
+          "type": "MultiEffect"
+        },
+        "hitEffect":{
+          "sizeFrom": 2,
+          "line": true,
+          "sizeTo": 1,
+          "lifetime": 8,
+          "colorFrom": "ff6666ff",
+          "colorTo": "ff6666ff",
+          "type": "ParticleEffect"
+        },
+        "despawnEffect":{
+          "sizeFrom": 2,
+          "line": true,
+          "sizeTo": 1,
+          "lifetime": 8,
+          "colorFrom": "ff6666ff",
+          "colorTo": "ff6666ff",
+          "type": "ParticleEffect"
+        },
+        "type": "LaserBulletType"
+      },
+      "type": "Weapon"
+    },
+    {
+      "name": "boltik",
+      "x": 0,
+      "y": -2.3,
+      "rotate": true,
+      "rotateSpeed": 5.9,
+      "reload": 8,
+      "mirror": false,
+      "shootSound": "spark",
+      "inaccuracy": 4,
+      "shot": "{\nshots: 2.0\nshotDelay: 1.0\n}",
+      "shootCone": 30,
+      "bullet":{
+        "damage": 35,
+        "lightningColor": "fff582ff",
+        "lightningLength": 15,
+        "lightningLengthRand": 5,
+        "hitEffect": "shootHealYellow",
+        "type": "LightningBulletType"
+      },
+      "type": "Weapon"
+    }
+  ],
+  "abilities": [
+    {
+      "amount": 100,
+      "type": "RegenAbility"
+    }
+  ],
+  "buildTime": "1",
+  "buildSpeed": 2,
 }
