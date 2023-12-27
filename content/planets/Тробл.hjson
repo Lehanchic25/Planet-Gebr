@@ -1,0 +1,75 @@
+generator: SerpuloPlanetGenerator
+localizedName: "Тробл"
+parent: S15780Wqt317
+iconColor: ff5d00
+orbitRadius: 20
+hasAtmosphere: true,
+updateLighting: false,
+atmosphereRadIn: 0.3,
+atmosphereRadOut: 0.2,
+atmosphereColor: dd4b16,
+drawOrbit: true,
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "Хибиновое ядро"
+sectorSeed: 0
+startSector: 1
+sectorSize: 0.5
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+	
+cloudMesh: {
+  type: HexSkyMesh
+  planet: Тробл
+  seed: 2
+  speed: 3
+  radius: 0.05
+  divisions: 5
+  color: dd4b16
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: Тробл
+    seed: 263670
+    color1: ff5d00
+    color2: d44e00
+    divisions: 5
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+	
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+    "sand"
+]
