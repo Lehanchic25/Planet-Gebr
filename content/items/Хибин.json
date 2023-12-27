@@ -1,0 +1,16 @@
+{
+  "name": "Хибин",
+  "explosiveness": 0,
+  "flammability": 0,
+  "radioactivity": 0,
+  "color": "d14900ff",
+  "cost": 1,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "hardness": 1
+  "research": {
+    "parent": "Хибиновое ядро"
+}
+}
