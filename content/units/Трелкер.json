@@ -1,0 +1,53 @@
+{
+  "name": "Трелкер",
+  "alwaysUnlocked": true,
+  "armor": 1,
+  "accel": 0.7,
+  "buildSpeed": 1,
+  "health": 360,
+  "coreUnitDock": false,
+  "flying": false,
+  "hitSize": 7,
+  "mineSpeed": 3,
+  "itemCapacity": 30,
+  "isEnemy": false,
+  "mineTier": 2,
+  "speed": 0.8,
+  "targetAir": false,
+  "type": "legs",
+  "legCount": 4,
+  "legExtension": 0,
+  "legMaxLength": 20,
+  "legMinLength": 5,
+  "legMoveSpace": 1,
+  "legLength": 10,
+  "legLengthScl": 5.9,
+  "legForwardScl": 3.7,
+  "rotateSpeed": 3,
+  "range": 120,
+  "legGroupSize": 2,
+  "legContinuousMove": true,
+  "hovering": false,
+  "outlineRadius": 3,
+"weapons": [
+    {
+      "name": "trelkel",
+      "mirror": false,
+      "reload": 60,
+      "x": 0,
+      "y": 1,
+      "bullet":{
+        "damage": 40,
+        "healColor": "ff6e00ff",
+        "healEffect": "coreBurn",
+        "lifetime": 120,
+        "healAmount": 15,
+        "frontColor": "ff7700ff",
+        "backColor": "ffffffff",
+        "width": 5,
+        "height": 10,
+        "type": "BasicBulletType"
+      }
+    }
+  ]
+}
