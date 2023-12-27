@@ -1,0 +1,24 @@
+type: CoreBlock
+localizedName: "Хибиновое ядро"
+category: effect
+health: 2700
+size: 1
+
+itemCapacity: 2000
+unitCapModifier: 5
+unitType: "Трелкер"
+incinerateNonBuildable: true
+isFirstTier: true
+squareSprite: false
+
+requirements: [
+    "Хибин/3000"
+]
+
+research: {
+    root: true
+    name: Тробл
+	planet: Тробл
+}
+
+alwaysUnlocked: true
