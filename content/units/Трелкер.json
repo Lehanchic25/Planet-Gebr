@@ -51,6 +51,28 @@
       "rotateSpeed": 4.2,
       "shootCone": 2,
       "ejectEffect": "casing1",
+    "parts": [
+    {
+    "type": "RegionPart",
+    "suffix": "-blade"
+    "layerOffset": -0.001,
+    "moveX": -6,
+    "moveY": -1
+    "moveRot": -290,
+    "mirror": true
+    "progress": "warmup",
+  },
+  {
+    "type": "RegionPart",
+    "suffix": "-blade"
+    "layerOffset": -0.001,
+    "moveX": -4,
+    "moveY": 5
+    "moveRot": 20,
+    "mirror": true
+    "progress": "warmup",
+  }
+  ],
       "bullet":{
         "damage": 10,
         "speed": 5,
