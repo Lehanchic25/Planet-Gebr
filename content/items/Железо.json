@@ -1,5 +1,6 @@
 {
   "name": "Железо",
+  "description": "Используется в самых ранних постройках, также его можно сплавить с другими материалами",
   "explosiveness": 0,
   "flammability": 0,
   "radioactivity": 0,
