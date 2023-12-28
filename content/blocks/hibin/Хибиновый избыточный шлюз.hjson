@@ -1,0 +1,15 @@
+type: OverflowGate
+name: Хибиновый избыточный шлюз
+description: Выводит предметы вперёд, только если боковые пути заблокированы
+health: 80
+invert: true
+requirements: [
+  Хибин/5
+] 
+category: distribution
+research: {
+    parent: Хибиновый избыточный затвор
+}
+researchCost: [
+    Хибин/100
+  ]

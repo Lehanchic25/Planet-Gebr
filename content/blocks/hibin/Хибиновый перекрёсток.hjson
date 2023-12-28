@@ -1,0 +1,19 @@
+type: Junction
+category: distribution
+size: 1
+health: 60
+name: Хибиновый перекрёсток
+
+speed: 0.09
+capacity: 12
+
+requirements: [
+    "Хибин/4"
+]
+
+research: {
+    parent: "Хибиновый конвеер"
+    requirements: [
+        "Хибин/200"
+    ]
+}

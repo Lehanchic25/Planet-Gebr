@@ -1,0 +1,14 @@
+type: OverflowGate
+name: Хибиновый избыточный затвор
+description: Выводит предметы по бокам, только если передний путь заблокирован
+health: 80
+requirements: [
+  Хибин/5
+] 
+category: distribution
+research: {
+    parent: Хибиновый сортировщик
+},
+researchCost: [
+    Хибин/100
+  ]

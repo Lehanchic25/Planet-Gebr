@@ -1,0 +1,17 @@
+{
+  "name": "Хибиновый конвеер",
+  "health": 40,
+  "size": 1,
+  "itemCapacity": 10,
+  "research": "Хибиновое ядро",
+  "requirements": [
+    {
+      "item": "Хибин",
+      "amount": 1
+    }
+  ],
+  "category": "distribution",
+  "type": "Conveyor",
+  "speed": 0.09,
+  "displayedSpeed": 0.09
+}

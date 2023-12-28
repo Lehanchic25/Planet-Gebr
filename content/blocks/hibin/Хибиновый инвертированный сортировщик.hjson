@@ -1,0 +1,13 @@
+type: Sorter
+name: Хибиновый инвертированный сортировщик
+description: Работает так же, как и стандартный сортировщик, но выводит выбранный предмет по бокам,  а не прямо
+health: 80
+invert: true
+requirements: [
+  Хибин/6
+] 
+category: distribution
+research: Хибиновый сортировщик
+researchCost: [
+    Хибин/100
+  ]

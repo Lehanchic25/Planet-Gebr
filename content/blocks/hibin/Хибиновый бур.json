@@ -1,0 +1,20 @@
+{
+  "name": "Хибиновый бур",
+  "localizedName": "Хибиновый бур",
+  "description": "Простой бур. Подходит для начала игры"
+  "type": "Drill",
+  "health": 360,
+  "size": 2,
+  "tier": 2,
+  "drillTime": 600,
+  "requirements": [
+    Хибин/30
+  ],
+  "category": "production",
+  "research": {
+    "parent": "Хибиновый конвеер"
+    "requirements": [
+        Хибин/300
+ ]
+}
+}

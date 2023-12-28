@@ -1,0 +1,20 @@
+type: ItemBridge
+category: distribution
+size: 1
+health: 80
+range: 4
+transportTime: 0.09
+hasPower: false
+name: Хибиновый мостовой конвеер
+localizedName: Хибиновый мостовой конвеер
+
+requirements: [
+    "Хибин/8"
+]
+
+research: {
+    parent: "Хибиновый маршрутизатор"
+    requirements: [
+        "Хибин/400"
+    ]
+}  

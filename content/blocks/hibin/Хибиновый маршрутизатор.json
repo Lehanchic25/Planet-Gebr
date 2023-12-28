@@ -1,0 +1,21 @@
+{
+  "name": "Хибиновый маршрутизатор",
+  "health": 60,
+  "size": 1,
+  "itemCapacity": 3,
+  "research": "Хибиновый перекрёсток",
+  "requirements": [
+    {
+      "item": "Хибин",
+      "amount": 3
+    }
+  ],
+  "category": "distribution",
+  "researchCost": [
+    {
+      "item": "Хибин",
+      "amount": 150
+    }
+  ],
+  "type": "Router"
+}
