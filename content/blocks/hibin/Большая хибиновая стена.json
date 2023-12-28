@@ -1,0 +1,18 @@
+{
+"name": "Большая хибиновая стена",
+"type": "Wall",
+"category": "defense",
+"size": 2,
+"health": 2600,
+
+"requirements": [
+    "Хибин/24"
+]
+
+"research": {
+    "parent": "Хибиновая стена"
+    "requirements": [
+        "Хибин/2400"
+    ]
+  }
+}
