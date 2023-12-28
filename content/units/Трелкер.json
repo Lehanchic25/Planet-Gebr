@@ -57,9 +57,9 @@
         "shrinkX": 0.1,
         "frontColor": "ff7700ff",
         "backColor": "ff9648ff",
-        "type": "BasicBulletType"
-        	"status": "Лёгкие ожоги",
-			      "statusDuration": 500,
+        "type": "BasicBulletType",
+        "status": "Лёгкие ожоги",
+	"statusDuration": 500
       },
     },
     {
