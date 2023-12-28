@@ -111,12 +111,6 @@
       "type": "Weapon"
     }
   ],
-  "abilities": [
-    {
-      "amount": 100,
-      "type": "RegenAbility"
-    }
-  ],
   "buildTime": "1",
   "buildSpeed": 2,
 }
