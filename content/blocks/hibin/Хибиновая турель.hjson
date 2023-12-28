@@ -1,0 +1,41 @@
+"name": "Хибиновая турель",
+drawOutlines: false
+"type": ItemTurret,
+"size": 3,
+"health": 900,
+range: 240,
+rotateSpeed: 10,
+reload: 6
+burstSpacing: 1
+shots: 1
+xRand: 1
+recoilAmount: 3
+shootSound: shootAltLong
+ammoTypes: {
+    
+  Хибин: {
+    type: BasicBulletType,
+    speed: 4
+    lifetime: 56
+    damage: 5
+    inaccuracy: 10,
+    width: 7
+    height: 7
+    frontColor: b2afb3
+    backColor: d5d2d6
+    shootEffect: "shootSmall"
+    ammoMultiplier: 5
+    collidesTiles: true
+    hitEffect: pointHit
+ }
+}
+category: turret
+requirements: [
+  Хибин/125
+]
+research: {
+    parent: "Хибиновое ядро",
+},
+researchCost: [
+    Хибин/750
+  ]
