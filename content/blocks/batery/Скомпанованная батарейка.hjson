@@ -3,6 +3,7 @@ localizedName: Скомпанованная батарейка
 category: power
 size: 1
 health: 620
+fullLightColor: "F86D66"
 
 conductivePower: true
 consumes: {
