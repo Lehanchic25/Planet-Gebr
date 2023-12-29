@@ -3,7 +3,7 @@ localizedName: Железная батарейка
 category: power
 size: 1
 health: 120
-fullLightColor: "79F2EEFF"
+fullLightColor: "25BC00"
 
 conductivePower: true
 consumes: {
