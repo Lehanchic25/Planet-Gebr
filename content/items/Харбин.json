@@ -1,0 +1,17 @@
+{
+  "name": "Харбин",
+  "description": "Второй очень важный ресурс на планете Тробл. Производится с помощью Хибиновой фабрики",
+  "explosiveness": 0,
+  "flammability": 0,
+  "radioactivity": 0,
+  "charge": 0.01,
+  "color": "afd1d3",
+  "cost": 2,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "research": {
+    "parent": "Хибин"
+}
+}
