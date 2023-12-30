@@ -14,7 +14,7 @@ accessible: true
 alwaysUnlocked: true
 defaultCore: "Хибиновое ядро"
 sectorSeed: 0
-startSector: 1
+startSector: 0
 sectorSize: 1
 
 clearSectorOnLose: true
