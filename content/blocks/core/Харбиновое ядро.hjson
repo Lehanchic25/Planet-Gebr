@@ -16,7 +16,7 @@ requirements: [
 ]
 
 research: {
-    parent: "Харбиновое ядро"
+    parent: "Хибиновое ядро"
     requirements: [
         "Харбин/4000"
 ]
