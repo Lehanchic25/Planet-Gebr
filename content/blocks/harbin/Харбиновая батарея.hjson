@@ -1,0 +1,35 @@
+name: "Харбиновая батарея",
+description: "Сохраняет энергию",
+type: battery
+size: 2
+	"fullLightColor": "A23EFF",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+canOverdrive: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+consumes: {
+    powerBuffered: 1500
+}
+category: power
+requirements: [
+  Харбин/25
+]
+research: {
+    parent: "Хибиновый узел",
+},
+researchCost: [
+    Харбин/150
+    ]
