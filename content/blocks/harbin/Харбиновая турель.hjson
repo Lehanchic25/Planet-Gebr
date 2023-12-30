@@ -65,7 +65,6 @@ shootType: {
     trailColor: ff3d3d
     }
 }
-}
 category: turret
 requirements: [
   Хибин/20
