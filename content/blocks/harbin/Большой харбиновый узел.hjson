@@ -1,0 +1,20 @@
+name: "Большой харбиновый узел"
+description: "Передаёт энергию. Хороший узел"
+type: PowerNode
+size: 2
+maxNodes: 15
+laserRange: 16
+laserColor1: A23EFF
+laserColor2: AF66F8
+category: power
+requirements: [
+  Хибин/8
+  Харбин/4
+]
+research: {
+    parent: Хибиновый узел
+},
+researchCost: [
+    Хибин/250
+    Харбин/100
+    ]

@@ -1,0 +1,19 @@
+name: "Харбиновая панель"
+description: "Генерирует небольшое количество энергии"
+type: SolarGenerator
+size: 1,
+name: Solar
+hasPower: true
+powerProduction: 0.1
+category: power
+requirements: [
+  Хибин/4
+  Харбин/8
+]
+research: {
+    parent: Харбиновая батарея
+},
+researchCost: [
+    Хибин/220
+    Харбин/300
+    ]
