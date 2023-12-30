@@ -1,0 +1,16 @@
+{
+  "localizedName": "Пещерные равнины",
+  "description": "Первый простой сектор на планете Тробл",
+  "difficulty": 2,
+  "alwaysUnlocked": true,
+  "addStartingItems": true,
+  "startWaveTimeMultiplier": 3,
+  "useAI": "false",
+  "showSectorLandInfo": true,
+  "planet": "Тробл",
+  "name": "Пещерные равнины",
+  "sector": 1,
+  "research": {
+    "parent": "Хибиновое ядро"
+}
+}
