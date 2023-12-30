@@ -1,0 +1,23 @@
+type: CoreBlock
+localizedName: "Харбиновое ядро"
+category: effect
+health: 4600
+size: 2
+
+itemCapacity: 4000
+unitCapModifier: 10
+unitType: "Трелкер 2"
+incinerateNonBuildable: true
+isFirstTier: true
+squareSprite: false
+
+requirements: [
+    "Харбин/2000"
+]
+
+research: {
+    parent: "Харбиновое ядро"
+    requirements: [
+        "Харбин/4000"
+]
+}
