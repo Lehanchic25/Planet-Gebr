@@ -1,0 +1,74 @@
+"type": PowerTurret,
+"name": "Харбиновая турель",
+"size": 1,
+"health": 400,
+range: 200,
+rotateSpeed: 5,
+reload: 20
+burstSpacing: 1
+shots: 1
+xRand: 1
+consumes: {
+  power: 0.9
+}
+recoilAmount: 3
+shootSound: shootAltLong
+shootType: {
+  type: LightningBulletType
+  damage: 10
+  collidesAir: false
+  lightning: 2
+  lightningLength: 10
+  lightningLengthRand: 25
+  lightningColor: ff3d3d
+  hitSound: spark
+  lightningType: {
+    type: MissileBulletType
+      speed: 2
+      lifetime: 60
+      damage: 50
+      width: 10
+      height: 10
+        frontColor: ff3d3d
+        backColor: ff9292
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 25
+          length: 20
+          lenFrom: 5
+          lenTo: 0
+          strokeFrom: 2
+          strokeTo: 0
+          colorFrom: ff9292
+          colorTo: ff3d3d
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 15
+          lifetime: 20
+          strokeFrom: 3.5
+          strokeTo: 0
+          colorFrom: ff9292
+          colorTo: ff3d3d
+        }
+      ]
+      weaveMag: 3
+      weaveScale: 5
+      weaveRandom: true
+    trailChance: 0.25
+    trailColor: ff3d3d
+    }
+}
+}
+}
+category: turret
+requirements: [
+  Хибин/20
+  Харбин/40
+]
