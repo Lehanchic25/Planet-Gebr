@@ -1,7 +1,7 @@
 name: "Харбиновая батарея",
 description: "Сохраняет энергию",
 type: battery
-size: 2
+size: 1
 	"fullLightColor": "A23EFF",
 	"hasPower": true,
 	"outputsPower": true,
