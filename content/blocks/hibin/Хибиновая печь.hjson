@@ -1,0 +1,44 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 280
+itemCapacity: 40
+name: "Хибиновая печь"
+description: "Создаёт один из важнейших ресурсов – Харбин"
+
+
+craftTime: 200
+consumes: {
+    power: 0.9
+    items: [
+        "Хибин/4"
+	]
+}
+outputItem: "Харбин/1"
+
+requirements: [
+    "Хибин/120"
+]
+
+research: {
+    parent: "Хибиновый узел"
+    requirements: [
+        "Хибин/2400"
+    ]
+	objectives: [
+	    "Хибиновая турель"
+	]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+{
+        type: DrawRegion
+        suffix: "-top"
+}
+	{
+        type: DrawDefault
+    }
+]
