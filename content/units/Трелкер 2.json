@@ -1,0 +1,98 @@
+{
+  "name": "Трелкер 2",
+  "alwaysUnlocked": true,
+  "armor": 2,
+  "accel": 0.7,
+  "buildSpeed": 1,
+  "health": 470,
+  "coreUnitDock": true,
+  "flying": false,
+  "hitSize": 7,
+  "mineSpeed": 5,
+  "itemCapacity": 60,
+  "isEnemy": false,
+  "mineTier": 2,
+  "speed": 0.6,
+  "targetAir": false,
+  "type": "legs",
+  "legCount": 6,
+  "legExtension": 0,
+  "legMaxLength": 11,
+  "legMinLength": 6,
+  "legMoveSpace": 3,
+  "legLength":8,
+  "legLengthScl": 0.91,
+  "legForwardScl": 0.52,
+  "rippleScale": 2,
+  "legspeed": "0.075",
+  "legTrns": "0.6",
+  "rotateSpeed": 3,
+  "range": 120,
+  "legGroupSize": 2,
+  "legContinuousMove": true,
+  "hovering": false,
+  "outlineRadius": 3,
+  "payloadCapacity": 64,
+  "pickupUnits": false,
+  "vulnerableWithPayloads": true,
+  "immunities": [
+		  "Лёгкие ожоги"
+	],
+  "weapons": [
+    {
+      "name": "trelkel",
+      "reload": 6,
+      "mirror": false,
+      "x": 0,
+      "y": 1,
+      "shootY": 4,
+      "recoil": 1.5,
+      "recoilTime": 100,
+      "inaccuracy": 4,
+      "rotate": true,
+      "shootSound": "shootSnap",
+      "rotateSpeed": 4.2,
+      "shootCone": 2,
+      "ejectEffect": "casing1",
+    "parts": [
+    {
+    "type": "RegionPart",
+    "suffix": "-blade"
+    "layerOffset": -0.001,
+    "moveX": -6,
+    "moveY": -1
+    "moveRot": -290,
+    "mirror": true
+    "progress": "warmup",
+  },
+  {
+    "type": "RegionPart",
+    "suffix": "-blade"
+    "layerOffset": -0.001,
+    "moveX": -4,
+    "moveY": 5
+    "moveRot": 20,
+    "mirror": true
+    "progress": "warmup",
+  }
+  ],
+      "bullet":{
+        "damage": 10,
+        "speed": 5,
+        "shrinkX": 0.1,
+        "frontColor": "ff7700ff",
+        "backColor": "ff9648ff",
+        "type": "BasicBulletType",
+        "status": "Лёгкие ожоги",
+        	"statusDuration": 500
+      },
+    },
+    {
+      "name": "wat",
+      "reload": 40,
+      "x": 0,
+      "y": -1,
+      "type": "PointDefenseWeapon"
+    }
+  ]
+}
