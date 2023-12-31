@@ -3,7 +3,7 @@ description: "Генерирует совсем маленькое количе�
 type: SolarGenerator
 size: 1
 hasPower: true
-powerProduction: 0.04
+powerProduction: 0.025
 category: power
 requirements: [
   Хибин/32
