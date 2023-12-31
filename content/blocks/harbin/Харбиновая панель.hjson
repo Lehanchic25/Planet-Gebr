@@ -11,6 +11,12 @@ requirements: [
 ]
 research: {
     parent: Харбиновая батарея
+    objectives: [
+        {
+            type: "SectorCompleted"
+            preset: "Пещерные равнины"
+        }
+    ]
 },
 researchCost: [
     Хибин/220
