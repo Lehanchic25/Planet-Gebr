@@ -1,0 +1,16 @@
+name: "Хибиновая панель"
+description: "Генерирует совсем маленькое количество энергии. Нужна для создания Харбина"
+type: SolarGenerator
+size: 1
+hasPower: true
+powerProduction: 0.04
+category: power
+requirements: [
+  Хибин/32
+]
+research: {
+    parent: Хибиновая печь
+},
+researchCost: [
+    Хибин/2200
+    ]
