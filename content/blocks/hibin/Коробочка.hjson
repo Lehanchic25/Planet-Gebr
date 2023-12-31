@@ -1,0 +1,15 @@
+name: Коробочка
+description: Увеличивает немного размер ядра, а также вместимость предметов
+type: StorageBlock
+size: 1
+health: 170
+hasItems: true
+itemCapacity: 125
+requirements: [
+Хибин/240
+]
+research: Хибиновое ядро
+researchCost: [
+    Хибин/4500
+]
+category: effect
