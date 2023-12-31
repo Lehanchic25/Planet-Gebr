@@ -1,0 +1,21 @@
+{
+  "name": "Хибиновый распределитель",
+  "health": 240,
+  "size": 2,
+  "itemCapacity": 12,
+  "research": "Хибиновый маршрутизатор",
+  "requirements": [
+    {
+      "item": "Хибин",
+      "amount": 12
+    }
+  ],
+  "category": "distribution",
+  "researchCost": [
+    {
+      "item": "Хибин",
+      "amount": 240
+    }
+  ],
+  "type": "Router"
+}
