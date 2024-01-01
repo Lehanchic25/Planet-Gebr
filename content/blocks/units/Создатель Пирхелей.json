@@ -11,12 +11,24 @@
       "unit": "Пирхель",
       "requirements": [
 	    {"item": "Хибин", "amount": 70},
-	    {"item": "Харбин", "amount": 30}
+	    {"item": "Харбин", "amount": 5}
       ],
       "time": 300
     },
   ],
   "requirements": [
+    {
+      "item": "Хибин",
+      "amount": 120
+    },
+    {
+      "item": "Харбин",
+      "amount": 10
+    },
+  ],
+  "category": "units",
+  "research": "Хибиновое ядро"
+	"researchCost": [
     {
       "item": "Хибин",
       "amount": 1200
@@ -25,7 +37,5 @@
       "item": "Харбин",
       "amount": 300
     },
-  ],
-  "category": "units",
-  "research": "Хибиновое ядро"
+	]
 }
