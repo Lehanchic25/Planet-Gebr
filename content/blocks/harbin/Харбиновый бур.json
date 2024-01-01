@@ -1,0 +1,20 @@
+{
+  "name": "Харбиновый бур",
+  "localizedName": "Харбиновый бур",
+  "description": "Сильный бур. Бурит Эквирант"
+  "type": "Drill",
+  "health": 760,
+  "size": 2,
+  "tier": 3,
+  "drillTime": 500,
+  "requirements": [
+    Харбин/30
+  ],
+  "category": "production",
+  "research": {
+    "parent": "Хибиновый бур"
+    "requirements": [
+        Харбин/300
+ ]
+}
+}
