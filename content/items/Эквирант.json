@@ -1,0 +1,17 @@
+{
+  "name": "Эквирант",
+  "description": "Ценный ресурс. Используется в турели, а также в некоторых постройках",
+  "explosiveness": 0,
+  "flammability": 0,
+  "radioactivity": 0,
+  "color": "b0e2eb",
+  "cost": 4,
+  "hiddenOnPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "hardness": 3
+  "research": {
+    "parent": "Харбин"
+}
+}
