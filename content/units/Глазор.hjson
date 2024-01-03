@@ -45,3 +45,10 @@ weapons: [
        }
        }
 ]
+research: {
+    parent: "Реконструктор таргов"
+    requirements: [
+        Железо/200
+        Радон/100
+    ]
+}

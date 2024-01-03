@@ -44,3 +44,11 @@ shootSound: plasmadrop
 hitSound: plasmaboom
 hitEffect: massiveExplosion
 }]
+
+research: {
+    parent: "Создатель Таргов"
+    requirements: [
+        Дерево/400
+        Железо/600
+        
+]}
