@@ -1,0 +1,17 @@
+{
+  "localizedName": "23.0000",
+  "description": "Сложный сектор. Находится рядом с Пещерными равниными. Отсюда могут начать нападать",
+  "difficulty": 6,
+  "alwaysUnlocked": true,
+  "addStartingItems": true,
+  "startWaveTimeMultiplier": 3,
+  "useAI": "false",
+  "showSectorLandInfo": true,
+  "planet": "Тробл",
+  "name": "230000",
+  "sector": 23,
+  "loadout": "Хибиновое ядро",
+  "research": {
+    "parent": "Пещерные равнины"
+}
+}
