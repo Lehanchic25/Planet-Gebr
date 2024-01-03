@@ -1,0 +1,21 @@
+type: Unloader
+name: Хибиновый разгрущик
+localizedName: Хибиновый разгрущик
+health: 280
+itemCapacity: 0
+requirements: [
+  Хибин/60
+] 
+category: effect
+research: {
+    parent: Хибиновый маршрутизатор
+    objectives: [
+        {
+            type: SectorComplete
+            preset: Пещерные равнины
+        }
+    ]
+}
+researchCost: [
+    Хибин/600
+  ]
