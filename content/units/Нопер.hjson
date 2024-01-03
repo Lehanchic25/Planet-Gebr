@@ -46,7 +46,7 @@ hitEffect: massiveExplosion
 }]
 
 research: {
-    parent: "Создатель Таргов"
+    parent: "Усилитель юнитов"
     requirements: [
         Дерево/400
         Железо/600
