@@ -1,0 +1,104 @@
+{
+  "type": "PowerTurret"
+  "name": "Небулитовая турель",
+  "size": 3,
+  "health": 1200,
+  "range": 560,
+  "rotateSpeed": 5,
+  "reload": 50,
+  "burstSpacing": 1,
+  "shots": 1,
+  "xRand": 1,
+  "consumes":{
+    "power": 1.8
+  }
+  "recoilAmount": 3,
+  "shootSound": "shootAltLong",
+  "shootType":{
+		"lifetime": 10,
+	"inaccuracy": 6
+ "shootSound": "missile",
+	"shake": 1,
+"type": "MissileBulletType",
+	"hitEffect": "flakExplosionBig"
+	"trailLength": 35,
+	"trailChance": 0,
+	"trailParam": 5,
+	"trailWidth": 2.5,
+	"sprite": "missile",
+ "damage": 20,
+	"keepVelocity": true,
+	"splashDamageRadius": 45,
+	"splashDamage": 15,
+	"weaveScale": 2,
+	"weaveMag": 2,
+	"homingRange": 50,
+	"speed": 5,
+	"homingPower": 0.09,
+	"lifetime": 45,
+	"hitSound": "dullExplosion",
+	"hitSoundVolume": 0.7,
+	"hitSoundPitch": 0.7,
+	"width": 6,
+	"height": 6,
+		"fragBullets": 2,
+		"fragRandomSpread": 30,
+		"fragLifeMin": 1.9,
+		"fragLifeMax": 3.2,
+		"fragVelocityMin": 1.2,
+		"fragVelocityMax": 3.5
+		"fragBullet": {
+ "type": "MissileBulletType",
+	"hitEffect": "blastExplosion"
+	"trailLength": 35,
+	"trailChance": 0,
+	"trailParam": 5,
+	"trailWidth": 1.25,
+	"sprite": "missile",
+ "damage": 10,
+	"keepVelocity": true,
+	"splashDamageRadius": 27,
+	"splashDamage": 26,
+	"weaveScale": 5,
+	"weaveMag": 3,
+	"homingRange": 24,
+	"homingPower": 0.09,
+	"lifetime": 45,
+	"hitSound": "dullExplosion",
+	"hitSoundVolume": 0.7,
+	"hitSoundPitch": 0.7,
+	"width": 3,
+	"height": 3
+		}
+	}
+  "category": "turret",
+  "requirements": [
+    {
+      "item": "Небулит",
+      "amount": 240
+    },
+    {
+      "item": "Харбин",
+      "amount": 5
+    }
+  ],
+  "research": {
+    "parent": "Хибиновый бур"
+    "requirements": [
+    {
+      "item": "Небулит",
+      "amount": 1200
+    },
+    {
+      "item": "Харбин",
+      "amount": 50
+    }
+ ]
+    "objectives": [
+        {
+            "type": "SectorCompleted",
+            "preset": "230000"
+        }
+    ]
+}
+}
