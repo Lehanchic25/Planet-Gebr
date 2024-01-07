@@ -1,0 +1,16 @@
+{
+  "localizedName": "Восточные поля",
+  "description": "Осторожно, здесь будет босс!",
+  "difficulty": 4,
+  "alwaysUnlocked": true,
+  "addStartingItems": true,
+  "startWaveTimeMultiplier": 3,
+  "useAI": "false",
+  "showSectorLandInfo": true,
+  "planet": "Тробл",
+  "name": "Восточные поля",
+  "sector": 42,
+  "research": {
+    "parent": "Пещерные равнины"
+}
+}
