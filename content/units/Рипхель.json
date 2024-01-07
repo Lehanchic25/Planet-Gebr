@@ -1,0 +1,88 @@
+{
+"localizedName": "Рипхель",
+"description": "Стреляет сильным огнём, а так же небольшим пистолетом",
+"type": "mech",
+"armor": 4,
+"commandLimit": 6,
+"speed": 0.4,
+"flying": false,
+"targetAir": false,
+"health": 1225,
+"immunities": [
+		"Лёгкие ожоги"
+],
+"weapons": [
+  {
+  "name": "flame",
+  "mirror": true,
+  "rotate": false,
+  "x": 7,
+  "y": 0,
+  "reload": 6.5,
+  "recoil": 0,
+  "shootY": 0,
+  "top": false,
+  "shots": 2,
+  "shootSound": "flame",
+  "ejectEffect": "none",
+  "parentizeEffects": false,
+  "bullet": {
+            "damage": 6,
+            "width": 8,
+            "pierce": true,
+			"pierceBuilding": false,
+            "type": "BasiclBulletType",
+            "lifetime": 5,
+		    "shootEffect": "shootSmallFlame"
+			"speed": 6.5,
+            "frontColor": "FF7B00FF",
+            "backColor": "B05500FF",
+            "hitEffect": "none",
+			"status": "burning",
+			"statusDuration": 15.5
+			"despawnEffect": "none"
+     }
+  },
+  {
+	  "name": "pistol",
+	  "mirror": true,
+	  "alternate": true,
+	  "rotate": true,
+	  "rotateSpeed": 4,
+	  "x": 0,
+	  "y": -1,
+	  "reload": 15,
+	  "recoil": 3,
+	  "shake": 0.3
+	  "shootSound": "shootSnap",
+	  "top": true,
+	  "shootEffect": "shootBig",
+	  "bullet": {
+		  "type": "BasicBulletType",
+		  "damage": 15,
+		  "speed": 2.5,
+		  "lifetime": 43,
+		  "width": 5,
+		  "height": 8.5,
+		  "hitEffect": "flakExplosion",
+		  "splashDamageRadius": 12.5,
+		  "splashDamage": 6
+		  "status": "blasted",
+		  "statusDuration": 5,
+	  }
+  }
+]
+"research": {
+    "parent": "Пирхель"
+    "requirements": [
+        "Харбин/20"
+        "Эквирант/70"
+    ]
+    "objectives": [
+        {
+            "type": "SectorCompleted",
+            "preset": "Восточные поля"
+        }
+    ]
+}
+}
