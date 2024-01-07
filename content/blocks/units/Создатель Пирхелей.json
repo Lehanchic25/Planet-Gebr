@@ -15,6 +15,14 @@
       ],
       "time": 300
     },
+  	{
+      "unit": "Рипхель",
+      "requirements": [
+	    {"item": "Эквирант", "amount": 70},
+	    {"item": "Харбин", "amount": 10}
+      ],
+      "time": 800
+    },
   ],
   "requirements": [
     {
