@@ -2,6 +2,7 @@
   "localizedName": "Восточные поля",
   "description": "Осторожно, здесь будет босс!",
   "difficulty": 4,
+  "captureWave": 30,
   "alwaysUnlocked": true,
   "addStartingItems": true,
   "startWaveTimeMultiplier": 3,
