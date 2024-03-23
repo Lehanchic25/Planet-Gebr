@@ -1,0 +1,40 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 480
+itemCapacity: 20
+name: "Холодный перерабатыватель"
+
+
+craftTime: 60
+consumes: {
+    power: 0.666666666
+    items: [
+        "Холодная руда/2"
+	]
+}
+outputItem: "Холодный слиток/1"
+
+requirements: [
+    "Алмаз/40"
+    "Железо/25"
+]
+
+research: {
+    parent: "Деревянное ядро"
+    requirements: [
+        "Алмаз/100"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
