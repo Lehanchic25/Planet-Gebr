@@ -20,3 +20,4 @@
 
 * Вы можете сообщать об ошибках в  категории [Issues](https://github.com/Lehanchic25/Planet-Gebr/issues).
 * Создавать [Реквесты](https://github.com/Lehanchic25/Planet-Gebr/pulls) для того чтобы исправить/добавить что-то.
+* Вы также можете зайти на мой [Дискорд Сервер](https://discord.com/invite/wV8rYae3mS) и можете туда присылать свои карты (они могут попасть на планету)
