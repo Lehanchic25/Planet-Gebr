@@ -4,12 +4,7 @@
 
 
 ### Извините, что долго не выпускаю обновлений
-Я потихоньку по чуть чуть буду добавлять контент, просто сейчас у меня очень мало времени для того чтобы заниматься модом.
-Если вы хотите чтобы 2 планета продолжала процветать вы можете заглянуть в пункт [Содействие](https://github.com/Lehanchic25/Planet-Gebr?tab=readme-ov-file#%D1%81%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5).
-
-- [x] Сделать 1 планету
-- [x] Начать делать 2 планету
-- [ ] Сделать релиз про 2 планету
+Я собираюсь сделать полный переворот планеты, так что если вам не понравится новое обновление (в чём я очень сомневаюсь) вам в [Релизы](https://github.com/Lehanchic25/Planet-Gebr/releases)
 
 [![Stars](https://img.shields.io/github/stars/Lehanchic25/Planet-Gebr?color=7289da&label=⭐️%20Please%20Star%20Planet%20Gebr%21)](https://github.com/Lehanchic25/Planet-Gebr)
 [![Download](https://img.shields.io/github/v/release/Lehanchic25/Planet-Gebr?color=6aa84f&include_prereleases&label=Latest%20version&logo=github&logoColor=white&)](https://github.com/Lehanchic25/Planet-Gebr/releases)[![Total Downloads](https://img.shields.io/github/downloads/Lehanchic25/Planet-Gebr/total?color=7289da&label&logo=docusign&logoColor=white)](https://github.com/Lehanchic25/Planet-Gebr/releases)
