@@ -4,7 +4,7 @@
 
 
 ### Извините, что долго не выпускаю обновлений
-Я собираюсь сделать полный переворот планеты, так что если вам не понравится новое обновление (в чём я очень сомневаюсь) вам в [Релизы](https://github.com/Lehanchic25/Planet-Gebr/releases)
+Я собираюсь сделать новый мод с сбалансированной планетой, так что этот проект останется скорее всего заброшенным :(
 
 [![Stars](https://img.shields.io/github/stars/Lehanchic25/Planet-Gebr?color=7289da&label=⭐️%20Please%20Star%20Planet%20Gebr%21)](https://github.com/Lehanchic25/Planet-Gebr)
 [![Download](https://img.shields.io/github/v/release/Lehanchic25/Planet-Gebr?color=6aa84f&include_prereleases&label=Latest%20version&logo=github&logoColor=white&)](https://github.com/Lehanchic25/Planet-Gebr/releases)[![Total Downloads](https://img.shields.io/github/downloads/Lehanchic25/Planet-Gebr/total?color=7289da&label&logo=docusign&logoColor=white)](https://github.com/Lehanchic25/Planet-Gebr/releases)
